@@ -1,0 +1,7 @@
+<h1>Photos Page</h1>
+
+<% if @image.image.attached? %>
+<p>
+<% image_tag @image.image.variant(resize: "300x300") %>
+</p>
+<% end %>

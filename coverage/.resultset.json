@@ -628,6 +628,58 @@
           null
         ]
       },
+      "/Users/alawson89/Desktop/Ruby/rails_flickr_clone/rails_flickr_clone/config/initializers/rails_admin.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/alawson89/Desktop/Ruby/rails_flickr_clone/rails_flickr_clone/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
@@ -648,6 +700,7 @@
       },
       "/Users/alawson89/Desktop/Ruby/rails_flickr_clone/rails_flickr_clone/config/routes.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -708,13 +761,6 @@
           null
         ]
       },
-      "/Users/alawson89/Desktop/Ruby/rails_flickr_clone/rails_flickr_clone/app/controllers/sessions_controller.rb": {
-        "lines": [
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/alawson89/Desktop/Ruby/rails_flickr_clone/rails_flickr_clone/app/controllers/users_controller.rb": {
         "lines": [
           1,
@@ -738,6 +784,44 @@
           1,
           1,
           1,
+          null
+        ]
+      },
+      "/Users/alawson89/Desktop/Ruby/rails_flickr_clone/rails_flickr_clone/app/models/ability.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -791,6 +875,6 @@
         ]
       }
     },
-    "timestamp": 1616604338
+    "timestamp": 1616617200
   }
 }

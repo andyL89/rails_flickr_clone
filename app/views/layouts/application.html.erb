@@ -24,13 +24,15 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/something">Something <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
             <li><a href="/images">Images</a></li>
             <li><a href="/tags">Tags</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <% if user_signed_in? %>
-              <%= current_user.email %>
+                <% if current_user.avatar.attached? %>
+                  <%= image_tag current_user.avatar %>
+                <% end %>
               <li><%= link_to 'Profile', edit_user_registration_path %></li>
               <li><%= link_to 'Log out', destroy_user_session_path, method: :delete %></li>
             <% else %>

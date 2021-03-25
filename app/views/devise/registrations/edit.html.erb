@@ -31,10 +31,21 @@
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
 
+  <div class="field">
+    <%= f.label "Profile Photo" %><br>
+    <%= f.file_field :avatar %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Update" %>
   </div>
 <% end %>
+
+<div class="avatar">
+  <% if @user.avatar.attached? %>
+    <%= image_tag @user.avatar %>
+  <% end %>
+</div>
 
 <h3>Cancel my account</h3>
 

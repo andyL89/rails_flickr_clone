@@ -1,11 +1,11 @@
 RailsAdmin.config do |config|
-  config.authorize_with do |controller|
-    if current_user.nil?
-      redirect_to main_app.new_user_session_path, flash: {error: 'Please Login to Continue..'}
-    elsif !current_user.admin?
-      redirect_to main_app.root_path, flash: {error: 'Must be an Admin to view contents!'}
-    end
-  end
+  # config.authorize_with do |controller|
+  #   if current_user.nil?
+  #     redirect_to main_app.new_user_session_path, flash: {error: 'Please Login to Continue..'}
+  #   elsif !current_user.admin?
+  #     redirect_to main_app.root_path, flash: {error: 'Must be an Admin to view contents.'}
+  #   end
+  # end
 
   ### Popular gems integration
 
